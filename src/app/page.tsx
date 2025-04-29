@@ -47,7 +47,7 @@ export default function Home() {
             height={800}
             className="w-full h-auto"
             priority
-            quality={85}
+            quality={30}
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAEDQIHXG8LNAAAAABJRU5ErkJggg=="
           />
