@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen font-[family-name:var(--font-geist-sans)]">
       {/* Header */}
-      <header className="bg-blue-600 text-white shadow-md">
+      <header className="bg-blue-600 dark:bg-blue-800 text-white shadow-md">
         <div className="container mx-auto px-4 py-4 sm:py-6 flex flex-col sm:flex-row justify-between items-center">
           <div className="flex items-center mb-4 sm:mb-0">
             <div className="mr-2">
@@ -35,7 +35,7 @@ export default function Home() {
       <main className="flex-grow container mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">準備中</h2>
-          <p className="text-gray-600 mb-8">新しいサービスの準備を進めています。もうしばらくお待ちください。</p>
+          <p className="text-gray-600 dark:text-gray-300 mb-8">新しいサービスの準備を進めています。もうしばらくお待ちください。</p>
         </div>
 
         {/* Main Image */}
@@ -47,28 +47,31 @@ export default function Home() {
             height={800}
             className="w-full h-auto"
             priority
+            quality={85}
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAEDQIHXG8LNAAAAABJRU5ErkJggg=="
           />
         </div>
 
         {/* Features Section */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-3">高品質な車両</h3>
-            <p className="text-gray-600">最新モデルの車両を取り揃えています。安全で快適なドライブをお楽しみいただけます。</p>
+            <p className="text-gray-600 dark:text-gray-300">最新モデルの車両を取り揃えています。安全で快適なドライブをお楽しみいただけます。</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-3">簡単予約</h3>
-            <p className="text-gray-600">オンラインで簡単に予約可能。スムーズな手続きでお客様の時間を大切にします。</p>
+            <p className="text-gray-600 dark:text-gray-300">オンラインで簡単に予約可能。スムーズな手続きでお客様の時間を大切にします。</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-3">24時間サポート</h3>
-            <p className="text-gray-600">いつでもサポートが必要な時に対応。安心してご利用いただけるサービスを提供します。</p>
+            <p className="text-gray-600 dark:text-gray-300">いつでもサポートが必要な時に対応。安心してご利用いただけるサービスを提供します。</p>
           </div>
         </div>
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-6">
+      <footer className="bg-gray-800 dark:bg-gray-900 text-white py-6">
         <div className="container mx-auto px-4">
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <div className="mb-4 sm:mb-0">
