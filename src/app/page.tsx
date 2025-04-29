@@ -22,20 +22,16 @@ export default function Home() {
               <p className="text-xs sm:text-sm">Pluteus Rent-a-Car</p>
             </div>
           </div>
-          <nav className="flex space-x-4">
-            <a href="#" className="hover:underline text-sm sm:text-base">ホーム</a>
-            <a href="#" className="hover:underline text-sm sm:text-base">車両一覧</a>
-            <a href="#" className="hover:underline text-sm sm:text-base">料金</a>
-            <a href="#" className="hover:underline text-sm sm:text-base">お問い合わせ</a>
-          </nav>
+          {/* <nav className="flex space-x-4">
+            <a href="#" className="hover:underline text-sm sm:text-base">Xのリンク</a>
+          </nav> */}
         </div>
       </header>
 
       {/* Main Content */}
       <main className="flex-grow container mx-auto px-4 py-8">
         <div className="text-center mb-8">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-4">準備中</h2>
-          <p className="text-gray-600 dark:text-gray-300 mb-8">新しいサービスの準備を進めています。もうしばらくお待ちください。</p>
+          <h2 className="text-2xl text-gray-600 dark:text-gray-300 mb-8">レンタカーの事前のご相談、最新の情報は<a className="text-blue-600 font-bold" href="https://x.com/pluteusrentacar"> 公式X(旧Twitter)</a> にて</h2>
         </div>
 
         {/* Main Image */}
@@ -52,22 +48,6 @@ export default function Home() {
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAEDQIHXG8LNAAAAABJRU5ErkJggg=="
           />
         </div>
-
-        {/* Features Section */}
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-3">高品質な車両</h3>
-            <p className="text-gray-600 dark:text-gray-300">最新モデルの車両を取り揃えています。安全で快適なドライブをお楽しみいただけます。</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-3">簡単予約</h3>
-            <p className="text-gray-600 dark:text-gray-300">オンラインで簡単に予約可能。スムーズな手続きでお客様の時間を大切にします。</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-3">24時間サポート</h3>
-            <p className="text-gray-600 dark:text-gray-300">いつでもサポートが必要な時に対応。安心してご利用いただけるサービスを提供します。</p>
-          </div>
-        </div>
       </main>
 
       {/* Footer */}
@@ -78,9 +58,7 @@ export default function Home() {
               <p className="text-sm">&copy; 2025 プルテウスレンタカー. All rights reserved.</p>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="text-sm hover:underline">プライバシーポリシー</a>
-              <a href="#" className="text-sm hover:underline">利用規約</a>
-              <a href="#" className="text-sm hover:underline">お問い合わせ</a>
+              {/* <a href="#" className="text-sm hover:underline">お問い合わせ</a> */}
             </div>
           </div>
         </div>
