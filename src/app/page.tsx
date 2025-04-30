@@ -48,21 +48,6 @@ export default function Home() {
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAEDQIHXG8LNAAAAABJRU5ErkJggg=="
           />
         </div>
-        {/* Features Section */}
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-3">高品質な車両</h3>
-            <p className="text-gray-600 dark:text-gray-300">最新モデルの車両を取り揃えています。安全で快適なドライブをお楽しみいただけます。</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-3">簡単予約</h3>
-            <p className="text-gray-600 dark:text-gray-300">オンラインで簡単に予約可能。スムーズな手続きでお客様の時間を大切にします。</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-3">24時間サポート</h3>
-            <p className="text-gray-600 dark:text-gray-300">いつでもサポートが必要な時に対応。安心してご利用いただけるサービスを提供します。</p>
-          </div>
-        </div>
 
         {/* Pricing Section */}
         <div id="pricing" className="mt-16">
