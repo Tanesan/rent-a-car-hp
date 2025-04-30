@@ -22,9 +22,9 @@ export default function Home() {
               <p className="text-xs sm:text-sm">Pluteus Rent-a-Car</p>
             </div>
           </div>
-          {/* <nav className="flex space-x-4">
-            <a href="#" className="hover:underline text-sm sm:text-base">Xのリンク</a>
-          </nav> */}
+          <nav className="flex space-x-4">
+            <a href="#pricing" className="hover:underline text-sm sm:text-base">料金表</a>
+          </nav>
         </div>
       </header>
 
